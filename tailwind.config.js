@@ -6,18 +6,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#F5F7F8",
-        secondary: "#45474B",
-        accent: "#F4CE14",
-        lightAccent: "#f4cf1467",
-        extraClr: "#eeee",
-        green: "#495E57",
-        grey: "#E1E1E1",
+        primary: "#FCF7F8",
+        secondary: "#201C21",
+        accent: "#C5DBBD",
+        darkAccent: "#546356",
+        gray: "#D5D5D8",
         black: "#111",
+        white: "#fff",
       },
       fontFamily: {
-        urbanist: ["Urbanist", "sans-serif"],
-        merriweather: ["Merriweather", "serif"],
+        SourceSans3: ["Source Sans 3", "sans-serif"],
+        PlayfairDisplay: ["Playfair Display", "serif"],
       },
     },
     screens: {

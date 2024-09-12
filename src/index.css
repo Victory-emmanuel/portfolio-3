@@ -12,9 +12,16 @@
 body {
   font-family: "Source Sans 3", sans-serif;
   font-style: normal;
-  color: #f5f7f8;
-  background-color: #45474b;
   color-scheme: light dark;
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  background-color: #fcf7f8;
 }
 
 h1,
@@ -38,3 +45,13 @@ svg {
 /* ///// NAV-BAR //// */
 
 /* ////// HERO SECTION /////////// */
+
+/* Profile image */
+.profile-bg-img {
+  background-image: url("https://i.postimg.cc/LsrJQNzj/2148190718.jpg")
+    no-repeat center center/cover;
+}
+
+/* Scroll functionality */
+.scroll-bg {
+}
