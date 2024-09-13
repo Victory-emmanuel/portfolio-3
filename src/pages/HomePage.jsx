@@ -84,7 +84,7 @@ const HomePage = () => {
                   whileHover={{ scale: 1.1 }}
                   animate={{ x: 0 }}
                   transition={{ duration: 1, ease: "backInOut" }}
-                  className="bg-darkAccent px-6 py-2 text-primary"
+                  className="bg-darkAccent hover:bg-accent duration-300 hover:text-secondary px-6 py-2 text-primary"
                 >
                   Let's talk
                 </motion.button>

@@ -35,6 +35,7 @@ const Services = () => {
                   </motion.span>
                   <div className="inline-block h-0.5 w-[60%] bg-darkAccent "></div>
                 </div>
+                {/* Service summary*/}
                 <div className=" w-full h-auto clear-both float-left mt-16 mb-16">
                   <ul className=" grid ss:grid-cols-2 gap-4">
                     {/* service 1 */}
@@ -152,226 +153,230 @@ const Services = () => {
                   </ul>
                 </div>
                 <div className="inline-block h-0.5 w-[80%] bg-darkAccent my-6 "></div>
-                {/* Service Details 1 */}
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 2 }}
-                  className="py-16"
-                >
-                  <div className="">
-                    <a
-                      href="#"
-                      className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
-                    >
-                      <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
+                {/* Service Details */}
+                <div className="">
+                  {" "}
+                  {/* Service Details 1 */}
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 2 }}
+                    className="py-16"
+                  >
+                    <div className="">
+                      <a
+                        href="#"
+                        className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
+                      >
+                        <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
 
-                      <div className="sm:flex sm:justify-between sm:gap-4">
-                        <div>
-                          <h3 className="text-lg font-bold text-secondary sm:text-xl">
-                            Logo Design
-                          </h3>
+                        <div className="sm:flex sm:justify-between sm:gap-4">
+                          <div>
+                            <h3 className="text-lg font-bold text-secondary sm:text-xl">
+                              Logo Design
+                            </h3>
 
-                          <p className="mt-1 text-sm font-medium text-darkAccent">
-                            Lucas Ludwig
+                            <p className="mt-1 text-sm font-medium text-darkAccent">
+                              Lucas Ludwig
+                            </p>
+                          </div>
+
+                          <div className="block sm:shrink-0">
+                            <img
+                              alt=""
+                              src="https://i.postimg.cc/LsrJQNzj/2148190718.jpg"
+                              className="size-16 rounded-full object-cover shadow-sm"
+                            />
+                          </div>
+                        </div>
+
+                        <div id="logo-design" className="my-8">
+                          <p className="text-pretty text-base text-secondary">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quaerat ad blanditiis voluptatem porro est
+                            eaque animi, veniam reiciendis quis possimus quo
+                            odio voluptates natus aut dicta, dolorem labore
+                            maxime officiis? Dolorem, deserunt distinctio dolor
+                            itaque alias architecto rerum numquam eum. Ut
+                            voluptatum ea facere voluptatibus! Rerum doloremque
+                            dicta deleniti iste?
                           </p>
                         </div>
-
-                        <div className="block sm:shrink-0">
-                          <img
-                            alt=""
-                            src="https://i.postimg.cc/LsrJQNzj/2148190718.jpg"
-                            className="size-16 rounded-full object-cover shadow-sm"
-                          />
-                        </div>
-                      </div>
-
-                      <div id="logo-design" className="my-8">
-                        <p className="text-pretty text-base text-secondary">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Quaerat ad blanditiis voluptatem porro est eaque
-                          animi, veniam reiciendis quis possimus quo odio
-                          voluptates natus aut dicta, dolorem labore maxime
-                          officiis? Dolorem, deserunt distinctio dolor itaque
-                          alias architecto rerum numquam eum. Ut voluptatum ea
-                          facere voluptatibus! Rerum doloremque dicta deleniti
-                          iste?
-                        </p>
-                      </div>
-                      <a
-                        href=""
-                        className="bg-darkAccent text-primary text-sm py-2 px-6 md:mb-0 xx:mb-6 "
-                      >
-                        Let's Talk
+                        <a
+                          href=""
+                          className="bg-darkAccent text-primary text-sm py-2 px-6 md:mb-0 xx:mb-6 "
+                        >
+                          Let's Talk
+                        </a>
                       </a>
-                    </a>
-                  </div>
-                </motion.div>
-                {/* Service Details 2 */}
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 2 }}
-                  className="py-16"
-                >
-                  <div className="">
-                    <a
-                      href="#"
-                      className="relative block overflow-hidden shadow-lg ss:p-4 xx:py-8 xx:px-4 sm:p-6 lg:p-8"
-                    >
-                      <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
+                    </div>
+                  </motion.div>
+                  {/* Service Details 2 */}
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 2 }}
+                    className="py-16"
+                  >
+                    <div className="">
+                      <a
+                        href="#"
+                        className="relative block overflow-hidden shadow-lg ss:p-4 xx:py-8 xx:px-4 sm:p-6 lg:p-8"
+                      >
+                        <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
 
-                      <div className="sm:flex sm:justify-between sm:gap-4">
-                        <div>
-                          <h3 className="text-lg font-bold text-secondary sm:text-xl">
-                            Graphics Design
-                          </h3>
+                        <div className="sm:flex sm:justify-between sm:gap-4">
+                          <div>
+                            <h3 className="text-lg font-bold text-secondary sm:text-xl">
+                              Graphics Design
+                            </h3>
 
-                          <p className="mt-1 text-sm font-medium text-darkAccent">
-                            Lucas Ludwig
+                            <p className="mt-1 text-sm font-medium text-darkAccent">
+                              Lucas Ludwig
+                            </p>
+                          </div>
+
+                          <div className="block sm:shrink-0">
+                            <img
+                              alt=""
+                              src="https://i.postimg.cc/LsrJQNzj/2148190718.jpg"
+                              className="size-16 rounded-full object-cover shadow-sm"
+                            />
+                          </div>
+                        </div>
+
+                        <div id="graphics-design" className="my-8">
+                          <p className="text-pretty text-base text-secondary">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quaerat ad blanditiis voluptatem porro est
+                            eaque animi, veniam reiciendis quis possimus quo
+                            odio voluptates natus aut dicta, dolorem labore
+                            maxime officiis? Dolorem, deserunt distinctio dolor
+                            itaque alias architecto rerum numquam eum. Ut
+                            voluptatum ea facere voluptatibus! Rerum doloremque
+                            dicta deleniti iste?
                           </p>
                         </div>
-
-                        <div className="block sm:shrink-0">
-                          <img
-                            alt=""
-                            src="https://i.postimg.cc/LsrJQNzj/2148190718.jpg"
-                            className="size-16 rounded-full object-cover shadow-sm"
-                          />
-                        </div>
-                      </div>
-
-                      <div id="graphics-design" className="my-8">
-                        <p className="text-pretty text-base text-secondary">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Quaerat ad blanditiis voluptatem porro est eaque
-                          animi, veniam reiciendis quis possimus quo odio
-                          voluptates natus aut dicta, dolorem labore maxime
-                          officiis? Dolorem, deserunt distinctio dolor itaque
-                          alias architecto rerum numquam eum. Ut voluptatum ea
-                          facere voluptatibus! Rerum doloremque dicta deleniti
-                          iste?
-                        </p>
-                      </div>
-                      <a
-                        href=""
-                        className="bg-darkAccent text-primary text-sm py-2 px-6 md:mb-0 xx:mb-6   "
-                      >
-                        Let's Talk
+                        <a
+                          href=""
+                          className="bg-darkAccent text-primary text-sm py-2 px-6 md:mb-0 xx:mb-6   "
+                        >
+                          Let's Talk
+                        </a>
                       </a>
-                    </a>
-                  </div>
-                </motion.div>
-                {/* Service Details 3 */}
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 2 }}
-                  className="py-16"
-                >
-                  <div className="">
-                    <a
-                      href="#"
-                      className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
-                    >
-                      <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
+                    </div>
+                  </motion.div>
+                  {/* Service Details 3 */}
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 2 }}
+                    className="py-16"
+                  >
+                    <div className="">
+                      <a
+                        href="#"
+                        className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
+                      >
+                        <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
 
-                      <div className="sm:flex sm:justify-between sm:gap-4">
-                        <div>
-                          <h3 className="text-lg font-bold text-secondary sm:text-xl">
-                            UX Design
-                          </h3>
+                        <div className="sm:flex sm:justify-between sm:gap-4">
+                          <div>
+                            <h3 className="text-lg font-bold text-secondary sm:text-xl">
+                              UX Design
+                            </h3>
 
-                          <p className="mt-1 text-sm font-medium text-darkAccent">
-                            Lucas Ludwig
+                            <p className="mt-1 text-sm font-medium text-darkAccent">
+                              Lucas Ludwig
+                            </p>
+                          </div>
+
+                          <div className="block sm:shrink-0">
+                            <img
+                              alt=""
+                              src="https://i.postimg.cc/LsrJQNzj/2148190718.jpg"
+                              className="size-16 rounded-full object-cover shadow-sm"
+                            />
+                          </div>
+                        </div>
+
+                        <div id="UX-design" className="my-8">
+                          <p className="text-pretty text-base text-secondary">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quaerat ad blanditiis voluptatem porro est
+                            eaque animi, veniam reiciendis quis possimus quo
+                            odio voluptates natus aut dicta, dolorem labore
+                            maxime officiis? Dolorem, deserunt distinctio dolor
+                            itaque alias architecto rerum numquam eum. Ut
+                            voluptatum ea facere voluptatibus! Rerum doloremque
+                            dicta deleniti iste?
                           </p>
                         </div>
-
-                        <div className="block sm:shrink-0">
-                          <img
-                            alt=""
-                            src="https://i.postimg.cc/LsrJQNzj/2148190718.jpg"
-                            className="size-16 rounded-full object-cover shadow-sm"
-                          />
-                        </div>
-                      </div>
-
-                      <div id="UX-design" className="my-8">
-                        <p className="text-pretty text-base text-secondary">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Quaerat ad blanditiis voluptatem porro est eaque
-                          animi, veniam reiciendis quis possimus quo odio
-                          voluptates natus aut dicta, dolorem labore maxime
-                          officiis? Dolorem, deserunt distinctio dolor itaque
-                          alias architecto rerum numquam eum. Ut voluptatum ea
-                          facere voluptatibus! Rerum doloremque dicta deleniti
-                          iste?
-                        </p>
-                      </div>
-                      <a
-                        href=""
-                        className="bg-darkAccent text-primary text-sm py-2 px-6 md:mb-0 xx:mb-6 "
-                      >
-                        Let's Talk
+                        <a
+                          href=""
+                          className="bg-darkAccent text-primary text-sm py-2 px-6 md:mb-0 xx:mb-6 "
+                        >
+                          Let's Talk
+                        </a>
                       </a>
-                    </a>
-                  </div>
-                </motion.div>
-                {/* Service Details 4 */}
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 2 }}
-                  className="py-16"
-                >
-                  <div className="">
-                    <a
-                      href="#"
-                      className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
-                    >
-                      <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
+                    </div>
+                  </motion.div>
+                  {/* Service Details 4 */}
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 2 }}
+                    className="py-16"
+                  >
+                    <div className="">
+                      <a
+                        href="#"
+                        className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
+                      >
+                        <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
 
-                      <div className="sm:flex sm:justify-between sm:gap-4">
-                        <div>
-                          <h3 className="text-lg font-bold text-secondary sm:text-xl">
-                            UI Design
-                          </h3>
+                        <div className="sm:flex sm:justify-between sm:gap-4">
+                          <div>
+                            <h3 className="text-lg font-bold text-secondary sm:text-xl">
+                              UI Design
+                            </h3>
 
-                          <p className="mt-1 text-sm font-medium text-darkAccent">
-                            Lucas Ludwig
+                            <p className="mt-1 text-sm font-medium text-darkAccent">
+                              Lucas Ludwig
+                            </p>
+                          </div>
+
+                          <div className="block sm:shrink-0">
+                            <img
+                              alt=""
+                              src="https://i.postimg.cc/LsrJQNzj/2148190718.jpg"
+                              className="size-16 rounded-full object-cover shadow-sm"
+                            />
+                          </div>
+                        </div>
+
+                        <div id="UI-design" className="my-8">
+                          <p className="text-pretty text-base text-secondary">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quaerat ad blanditiis voluptatem porro est
+                            eaque animi, veniam reiciendis quis possimus quo
+                            odio voluptates natus aut dicta, dolorem labore
+                            maxime officiis? Dolorem, deserunt distinctio dolor
+                            itaque alias architecto rerum numquam eum. Ut
+                            voluptatum ea facere voluptatibus! Rerum doloremque
+                            dicta deleniti iste?
                           </p>
                         </div>
-
-                        <div className="block sm:shrink-0">
-                          <img
-                            alt=""
-                            src="https://i.postimg.cc/LsrJQNzj/2148190718.jpg"
-                            className="size-16 rounded-full object-cover shadow-sm"
-                          />
-                        </div>
-                      </div>
-
-                      <div id="UI-design" className="my-8">
-                        <p className="text-pretty text-base text-secondary">
-                          Lorem ipsum dolor sit, amet consectetur adipisicing
-                          elit. Quaerat ad blanditiis voluptatem porro est eaque
-                          animi, veniam reiciendis quis possimus quo odio
-                          voluptates natus aut dicta, dolorem labore maxime
-                          officiis? Dolorem, deserunt distinctio dolor itaque
-                          alias architecto rerum numquam eum. Ut voluptatum ea
-                          facere voluptatibus! Rerum doloremque dicta deleniti
-                          iste?
-                        </p>
-                      </div>
-                      <a
-                        href=""
-                        className="bg-darkAccent text-primary text-sm py-2 px-6 md:mb-0 xx:mb-6 "
-                      >
-                        Let's Talk
+                        <a
+                          href=""
+                          className="bg-darkAccent text-primary text-sm py-2 px-6 md:mb-0 xx:mb-6 "
+                        >
+                          Let's Talk
+                        </a>
                       </a>
-                    </a>
-                  </div>
-                </motion.div>
+                    </div>
+                  </motion.div>
+                </div>
               </motion.div>
             </div>
           </div>

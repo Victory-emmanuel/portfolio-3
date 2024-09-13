@@ -1,10 +1,16 @@
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <>
-      <div className="">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.75 }}
+        className=""
+      >
         <div className="  py-6 grid grid-cols-4 content-center bg-white fixed bottom-0 left-0 right-0 z-10 justify-between  md:px-12 xx:px-3 ">
           <div className="col-span-3">
             <div className="xs:flex">
@@ -41,7 +47,7 @@ const Footer = () => {
             <p className="text-accent opacity-50 font-thin">@codeSquid</p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
