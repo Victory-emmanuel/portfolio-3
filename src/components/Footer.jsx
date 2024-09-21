@@ -7,11 +7,11 @@ const Footer = () => {
     <>
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 0.75 }}
         className=""
       >
-        <div className="  py-6 grid grid-cols-4 content-center bg-white fixed bottom-0 left-0 right-0 z-10 justify-between  md:px-12 xx:px-3 ">
+        <div className="  py-6 grid grid-cols-4 content-center bg-white fixed  bottom-0 left-0 right-0 z-10 justify-between md:mt-0 ss:mt-8 xx:mt-[12rem]  md:px-12 xx:px-3 ">
           <div className="col-span-3">
             <div className="xs:flex">
               <p className="text-secondary mr-4">

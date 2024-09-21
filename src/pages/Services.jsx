@@ -8,15 +8,15 @@ const Services = () => {
     <>
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 0.75 }}
-        className="md:h-[85dvh] md:pt-0 xx:pt-24 md:px-0 ss:px-3"
+        className="md:h-[85dvh] md:pt-0  xx:pt-24 md:px-0 ss:px-3"
       >
-        <div className="grid md:grid-cols-3 xx:grid-cols-1 gap-0" id="service">
+        <div className="grid md:grid-cols-3 xx:grid-cols-1  gap-0" id="service">
           <div className="md:block xx:hidden col-span-1 ">
             <ProfileImage />
           </div>
-          <div className="md:col-span-2 md:pl-12 md:pr-2  md:mr-12 md:max-w-[100%] md:h-[100%] bg-primary scroll-bg">
+          <div className="md:col-span-2 md:pl-12 md:pr-2  md:mr-12 md:max-w-[100%] md:h-[100%] bg-primary scroll-bg  md:mb-0 ss:mb-[3rem] xx:mb-[6rem]">
             <div className="  scroll-div md:max-w-[100%] md:h-[75vh] md:my-6 md:overflow-hidden md:overflow-y-scroll  bg-primary ">
               <motion.div
                 initial={{ y: -200 }}
@@ -50,7 +50,7 @@ const Services = () => {
                         <h3 className="title font-medium text-[24px]  mb-[15px] transition-all ">
                           Logo Design
                         </h3>
-                        <p className="text transition-all mb-12 ">
+                        <p className="ss:text-base xx:text-sm transition-all mb-12 ">
                           Lorem ipsum dolor sit, amet consectetur adipisicing
                           elit. Suscipit deserunt sapiente, incidunt soluta
                           molestiae reiciendis deleniti eligendi quisquam at
@@ -69,7 +69,7 @@ const Services = () => {
                     {/* service 2 */}
                     <motion.li
                       initial={{ x: 50 }}
-                      whileInView={{ x: 0 }}
+                      animate={{ x: 0 }}
                       transition={{ duration: 1 }}
                       className=""
                     >
@@ -78,7 +78,7 @@ const Services = () => {
                         <h3 className="title font-medium text-[24px]  mb-[15px] transition-all ">
                           Graphics Design
                         </h3>
-                        <p className="text transition-all mb-12 ">
+                        <p className="ss:text-base xx:text-sm transition-all mb-12 ">
                           Lorem ipsum dolor sit, amet consectetur adipisicing
                           elit. Suscipit deserunt sapiente, incidunt soluta
                           molestiae reiciendis deleniti eligendi quisquam at
@@ -106,7 +106,7 @@ const Services = () => {
                         <h3 className="title font-medium text-[24px]  mb-[15px] transition-all ">
                           UX Design
                         </h3>
-                        <p className="text transition-all mb-12 ">
+                        <p className="ss:text-base xx:text-sm transition-all mb-12 ">
                           Lorem ipsum dolor sit, amet consectetur adipisicing
                           elit. Suscipit deserunt sapiente, incidunt soluta
                           molestiae reiciendis deleniti eligendi quisquam at
@@ -125,7 +125,7 @@ const Services = () => {
                     {/* service 4 */}
                     <motion.li
                       initial={{ x: 50 }}
-                      whileInView={{ x: 0 }}
+                      animate={{ x: 0 }}
                       transition={{ duration: 1 }}
                       className=""
                     >
@@ -134,7 +134,7 @@ const Services = () => {
                         <h3 className="title font-medium text-[24px]  mb-[15px] transition-all ">
                           UI Design
                         </h3>
-                        <p className="text transition-all mb-12 ">
+                        <p className="ss:text-base xx:text-sm transition-all mb-12 ">
                           Lorem ipsum dolor sit, amet consectetur adipisicing
                           elit. Suscipit deserunt sapiente, incidunt soluta
                           molestiae reiciendis deleniti eligendi quisquam at
@@ -154,19 +154,19 @@ const Services = () => {
                 </div>
                 <div className="inline-block h-0.5 w-[80%] bg-darkAccent my-6 "></div>
                 {/* Service Details */}
-                <div className="">
+                <div className="grid content-center">
                   {" "}
                   {/* Service Details 1 */}
                   <motion.div
                     initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
+                    animate={{ opacity: 1 }}
                     transition={{ duration: 2 }}
                     className="py-16"
                   >
                     <div className="">
                       <a
                         href="#"
-                        className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
+                        className="relative block overflow-hidden shadow-lg ss:p-4 xx:py-8 xx:px-4 sm:p-6 lg:p-8"
                       >
                         <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
 
@@ -191,7 +191,7 @@ const Services = () => {
                         </div>
 
                         <div id="logo-design" className="my-8">
-                          <p className="text-pretty text-base text-secondary">
+                          <p className="text-pretty ss:text-base xx:text-sm text-secondary">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Quaerat ad blanditiis voluptatem porro est
                             eaque animi, veniam reiciendis quis possimus quo
@@ -214,7 +214,7 @@ const Services = () => {
                   {/* Service Details 2 */}
                   <motion.div
                     initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
+                    animate={{ opacity: 1 }}
                     transition={{ duration: 2 }}
                     className="py-16"
                   >
@@ -246,7 +246,7 @@ const Services = () => {
                         </div>
 
                         <div id="graphics-design" className="my-8">
-                          <p className="text-pretty text-base text-secondary">
+                          <p className="text-pretty ss:text-base xx:text-sm text-secondary">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Quaerat ad blanditiis voluptatem porro est
                             eaque animi, veniam reiciendis quis possimus quo
@@ -269,14 +269,14 @@ const Services = () => {
                   {/* Service Details 3 */}
                   <motion.div
                     initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
+                    animate={{ opacity: 1 }}
                     transition={{ duration: 2 }}
                     className="py-16"
                   >
                     <div className="">
                       <a
                         href="#"
-                        className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
+                        className="relative block overflow-hidden shadow-lg ss:p-4 xx:py-8 xx:px-4 sm:p-6 lg:p-8"
                       >
                         <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
 
@@ -301,7 +301,7 @@ const Services = () => {
                         </div>
 
                         <div id="UX-design" className="my-8">
-                          <p className="text-pretty text-base text-secondary">
+                          <p className="text-pretty ss:text-base xx:text-sm text-secondary">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Quaerat ad blanditiis voluptatem porro est
                             eaque animi, veniam reiciendis quis possimus quo
@@ -324,14 +324,14 @@ const Services = () => {
                   {/* Service Details 4 */}
                   <motion.div
                     initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
+                    animate={{ opacity: 1 }}
                     transition={{ duration: 2 }}
                     className="py-16"
                   >
                     <div className="">
                       <a
                         href="#"
-                        className="relative block overflow-hidden shadow-lg p-4 sm:p-6 lg:p-8"
+                        className="relative block overflow-hidden shadow-lg ss:p-4 xx:py-8 xx:px-4 sm:p-6 lg:p-8"
                       >
                         <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-accent via-primary  to-darkAccent"></span>
 
@@ -356,7 +356,7 @@ const Services = () => {
                         </div>
 
                         <div id="UI-design" className="my-8">
-                          <p className="text-pretty text-base text-secondary">
+                          <p className="text-pretty ss:text-base xx:text-sm text-secondary">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Quaerat ad blanditiis voluptatem porro est
                             eaque animi, veniam reiciendis quis possimus quo

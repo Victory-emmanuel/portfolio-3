@@ -18,7 +18,7 @@ const Portfolio = () => {
             <ProfileImage />
           </div>
 
-          <div className="md:col-span-2 md:pl-12 md:pr-2  md:mr-12 md:max-w-[100%] md:h-[100%] bg-primary scroll-bg">
+          <div className="md:col-span-2 md:pl-12 md:pr-2  md:mr-12 md:max-w-[100%] md:h-[100%] bg-primary scroll-bg  md:mb-0 ss:mb-[3rem] xx:mb-[8rem]">
             <div className="scroll-div md:max-w-[100%] md:h-[75vh] md:my-6 md:overflow-hidden md:overflow-y-scroll  bg-primary">
               <motion.div
                 initial={{ y: -200 }}
@@ -32,10 +32,10 @@ const Portfolio = () => {
                   transition={{ duration: 0.75 }}
                   className=" w-full flex items-center gap-8 h-auto clear-both float-left overflow-hidden"
                 >
-                  <span className="inline-block relative  uppercase ss:text-xl xx:text-base text-darkAccent font-bold tracking-[8px]">
+                  <span className="inline-block relative  uppercase ss:text-xl xx:text-base text-darkAccent ss:font-bold xx:font-semibold tracking-[8px]">
                     My Works
                   </span>
-                  <div className="inline-block h-0.5 w-[60%] bg-darkAccent "></div>
+                  <div className="inline-block h-0.5 ss:w-[60%] xx:w-[40%] bg-darkAccent "></div>
                 </motion.div>
                 {/* My works */}
                 <div

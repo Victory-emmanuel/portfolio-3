@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="md:block xx:hidden col-span-1 ">
             <ProfileImage />
           </div>
-          <div className="md:col-span-2 md:pl-12 md:pr-2  md:mr-12 md:max-w-[100%] md:h-[100%] bg-primary scroll-bg">
+          <div className="md:col-span-2 md:pl-12 md:pr-2  md:mr-12 md:max-w-[100%] md:h-[100%] bg-primary scroll-bg  md:mb-0 ss:mb-[3rem] xx:mb-[8rem]">
             <div className="scroll-div md:max-w-[100%] md:h-[75vh] md:my-6 md:overflow-hidden md:overflow-y-scroll  bg-primary ">
               <motion.div
                 initial={{ y: -200 }}
@@ -29,11 +29,11 @@ const Contact = () => {
                     initial={{ x: -50 }}
                     whileInView={{ x: 0 }}
                     transition={{ duration: 0.75 }}
-                    className="inline-block relative  uppercase text-xl text-darkAccent font-bold tracking-[8px]"
+                    className="inline-block relative  uppercase ss:text-xl xs:text-base xx:text-sm text-darkAccent font-semibold tracking-[8px]"
                   >
                     Contact Me
                   </motion.span>
-                  <div className="inline-block h-0.5 w-[60%] bg-darkAccent "></div>
+                  <div className="inline-block h-0.5 ss:w-[60%] xx:w-[40%] bg-darkAccent "></div>
                 </div>
                 <div className=" w-full h-auto clear-both float-left mt-[62px] md:pr-6 ">
                   <ul className=" grid ss:grid-cols-3 xs:grid-cols-2 xx:grid-cols-1 gap-4">
@@ -98,7 +98,7 @@ const Contact = () => {
                       initial={{ x: -50 }}
                       animate={{ x: 0 }}
                       transition={{ duration: 1 }}
-                      className="text-darkAccent font-bold text-xl mb-2 "
+                      className="text-darkAccent font-bold ss:text-xl xx:text-base mb-2 "
                     >
                       Let's connect!
                     </motion.p>

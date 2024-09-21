@@ -26,20 +26,20 @@ const HomePage = () => {
           className="md:pl-12 xx:px-6 md:col-span-2 text-secondary bg-primary  md:mr-12 "
           id="home"
         >
-          <div className=" relative w-full h-full grid md:grid-cols-1 md:content-center ss:justify-items-start xx:justify-items-center xx:pt-[45%] md:pt-0">
+          <div className=" relative w-full h-full grid md:grid-cols-1 md:content-center ss:justify-items-start xx:justify-items-center xx:pt-[45%] md:mb-0 ss:mb-[8rem] xx:mb-[15rem] md:pt-0">
             {/* Mobile mode image */}
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.75 }}
-              className=" ss:hidden xx:block mb-24 "
+              className=" ss:hidden xx:block xs:mb-24 xx:mb-12 "
             >
               <div>
                 <div
                   style={{
                     background: `url("https://i.postimg.cc/LsrJQNzj/2148190718.jpg") no-repeat center center/cover`,
                   }}
-                  className="xs:w-[20rem] xs:h-[20rem] xx:w-[15rem] xx:h-[15rem] rounded-full" // Set a fixed height here
+                  className="xs:w-[17.5rem] xs:h-[17.5rem] xx:w-[15rem] xx:h-[15rem] rounded-full" // Set a fixed height here
                 ></div>
               </div>
               {/* Mobile mode image end */}

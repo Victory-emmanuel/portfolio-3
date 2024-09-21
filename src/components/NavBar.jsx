@@ -31,18 +31,18 @@ const NavBar = () => {
   return (
     <>
       <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.75 }}
+        initial={{ opacity: 0.25 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
         className="relative"
       >
         {/* Mobile Screen */}
-        <nav className="md:hidden bg-white shadow-lg py-2 px-4 fixed z-10 top-0 right-0 left-0  ">
+        <nav className="md:hidden bg-white shadow-lg py-2 px-4 fixed z-20 top-0 right-0 left-0  ">
           <div className="flex items-center justify-between">
             <Link to="/">
               {/* Logo.... change logo image  */}
               <img
-                className="block max-w-[4rem]"
+                className="block ss:max-w-[4rem] xx:max-w-[3rem]"
                 src="https://i.postimg.cc/ZKHtfnrc/logo-design-2.png"
                 alt="Logo"
               />

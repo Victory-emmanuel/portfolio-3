@@ -8,13 +8,13 @@ const About = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.75 }}
-        className="md:h-[85dvh] md:pt-0 xx:pt-24 md:px-0 ss:px-6"
+        className="md:h-[85dvh] md:pt-0 xx:pt-24 md:px-0 ss:px-6 xx:px-3"
       >
         <div className="grid md:grid-cols-3 xx:grid-cols-1 gap-0 " id="about">
           <div className="md:block xx:hidden col-span-1 ">
             <ProfileImage />
           </div>
-          <motion.div className="md:col-span-2 md:pl-12 md:pr-2  md:mr-12 md:max-w-[100%] md:h-[100%]  bg-primary scroll-bg ">
+          <motion.div className="md:col-span-2 md:pl-12 md:pr-2  md:mr-12 md:max-w-[100%] md:h-[100%]  bg-primary scroll-bg   md:mb-0 ss:mb-[3rem] xx:mb-[6rem]">
             <div className=" scroll-div md:max-w-[100%] md:h-[75vh] md:my-6 md:overflow-hidden md:overflow-y-scroll  bg-primary ">
               <motion.div
                 initial={{ y: -200 }}
@@ -28,20 +28,20 @@ const About = () => {
                       initial={{ x: -50 }}
                       whileInView={{ x: 0 }}
                       transition={{ duration: 0.75 }}
-                      className="inline-block relative  uppercase text-xl text-darkAccent font-bold tracking-[8px]"
+                      className="inline-block relative  uppercase ss:text-xl xx:text-base text-darkAccent xx:font-semibold ss:font-bold tracking-[8px]"
                     >
                       About Me
                     </motion.span>
-                    <div className="inline-block h-0.5 w-[60%] bg-darkAccent "></div>
+                    <div className="inline-block h-0.5 ss:w-[60%] xx:w-[40%] bg-darkAccent "></div>
                   </div>
-                  <div className="wrapper w-full h-auto clear-both float-left flex justify-between mt-[55px]">
+                  <div className="wrapper w-full h-auto clear-both float-left flex ss:flex-row xx:flex-col justify-between mt-[55px]">
                     <motion.div
                       initial={{ x: -50 }}
                       animate={{ x: 0 }}
                       transition={{ duration: 0.75 }}
-                      className="left w-[40%]"
+                      className="ss:left ss:w-[40%] xx:w-[100%] ss:mb-0 xx:mb-12"
                     >
-                      <p className="mb-[15px]">
+                      <p className="mb-[15px] text-base ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Consequatur, voluptatum accusamus praesentium in
                         expedita dolore rem, natus obcaecati qui quisquam
@@ -57,46 +57,46 @@ const About = () => {
                       initial={{ x: 50 }}
                       animate={{ x: 0 }}
                       transition={{ duration: 0.75 }}
-                      className="right w-[50%]"
+                      className="ss:right ss:w-[50%]  xx:w-[100%]"
                     >
                       <ul>
                         <li className="mb-[8px] w-full float-left">
-                          <span className="inline-block min-w-[100px] font-bold">
+                          <span className="inline-block min-w-[100px] font-semibold text-darkAccent text-base">
                             Name:
                           </span>
-                          <span className=" inline-block">
+                          <span className=" inline-block xs:text-base xx:text-sm">
                             Lorem ipsum dolor.
                           </span>
                         </li>
                         <li className="mb-[8px] w-full float-left">
-                          <span className="inline-block min-w-[100px] font-bold">
+                          <span className="inline-block min-w-[100px] font-semibold text-darkAccent text-base">
                             Address:
                           </span>
-                          <span className=" inline-block">
+                          <span className=" inline-block xs:text-base xx:text-sm">
                             Lorem ipsum dolor sit amet co.
                           </span>
                         </li>
                         <li className="mb-[8px] w-full float-left">
-                          <span className="first inline-block min-w-[100px] font-bold">
+                          <span className="first inline-block min-w-[100px] font-semibold text-darkAccent text-base">
                             Study:
                           </span>
-                          <span className="second inline-block">
+                          <span className="second inline-block xs:text-base xx:text-sm">
                             Lorem ipsum dolor.
                           </span>
                         </li>
                         <li className="mb-[8px] w-full float-left">
-                          <span className="first inline-block min-w-[100px] font-bold">
+                          <span className="first inline-block min-w-[100px] font-semibold text-darkAccent text-base">
                             Degree:
                           </span>
-                          <span className="second inline-block">
+                          <span className="second inline-block xs:text-base xx:text-sm">
                             Lorem ipsum dolor sit.
                           </span>
                         </li>
                         <li className="mb-[8px] w-full float-left">
-                          <span className="first inline-block min-w-[100px] font-bold">
+                          <span className="first inline-block min-w-[100px] font-semibold text-darkAccent text-base">
                             Mail:
                           </span>
-                          <span className="second inline-block">
+                          <span className="second inline-block xs:text-base xx:text-sm">
                             <a
                               className="text-[#7d7789] transition-all duration-300 hover:text-secondary"
                               href="#"
@@ -111,10 +111,10 @@ const About = () => {
                           </span>
                         </li>
                         <li className="w-full float-left">
-                          <span className="first inline-block min-w-[100px] font-bold">
+                          <span className="first inline-block min-w-[100px] font-semibold text-darkAccent text-base">
                             Phone:
                           </span>
-                          <span className="second inline-block">
+                          <span className="second inline-block xs:text-base xx:text-sm">
                             +2348109125793
                           </span>
                         </li>
@@ -128,40 +128,40 @@ const About = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 1 }}
-                    className=" w-full h-auto clear-both float-left flex justify-start gap-24"
+                    className=" w-full h-auto clear-both float-left flex ss:flex-row xx:flex-col  justify-start ss:gap-24"
                   >
-                    <motion.div className=" w-[40%]">
+                    <motion.div className=" ss:w-[40%] xx:w-[100%] ss:mb-0 xx:mb-12">
                       <div className=" w-full h-auto clear-both float-left overflow-hidden">
-                        <span className="inline-block relative font-poppins text-secondary uppercase font-bold tracking-[8px]">
+                        <span className="inline-block relative font-poppins text-darkAccent uppercase font-semibold tracking-[8px]">
                           Services
                         </span>
                       </div>
-                      <div className="list w-full h-auto clear-both float-left mt-[55px]">
-                        <ul>
-                          <li className=" text-base w-full float-left relative pl-[25px]">
+                      <div className="list w-full h-auto clear-both  ss:float-left mt-[55px]">
+                        <ul className="grid ss:grid-cols-1 xx:grid-cols-2 gap-8">
+                          <li className=" text-base w-full float-left relative ss:pl-[25px]">
                             Logo Design
                           </li>
-                          <li className="mt-6 text-base w-full float-left relative pl-[25px]">
+                          <li className="ss:mt-6 text-base w-full float-left relative ss:pl-[25px]">
                             Logo Design
                           </li>
-                          <li className="mt-6 text-base w-full float-left relative pl-[25px]">
+                          <li className="ss:mt-6 text-base w-full float-left relative ss:pl-[25px]">
                             Logo Design
                           </li>
 
-                          <li className="mt-6 text-base w-full float-left relative pl-[25px]">
+                          <li className="ss:mt-6 text-base w-full float-left relative ss:pl-[25px]">
                             Logo Design
                           </li>
                         </ul>
                       </div>
                     </motion.div>
-                    <motion.div className="w-[40%]">
+                    <motion.div className="ss:w-[40%] xx:w-[100%] ">
                       <div className=" w-full h-auto clear-both float-left overflow-hidden">
-                        <span className="inline-block relative font-poppins text-secondary uppercase font-bold tracking-[8px]">
+                        <span className="inline-block relative font-poppins text-darkAccent uppercase font-bold tracking-[8px]">
                           Skills
                         </span>
                       </div>
                       <div className=" w-full h-auto clear-both float-left mt-[55px]">
-                        <div className="">
+                        <div className="grid grid-cols-1  gap-8 ">
                           {/* Skill 1 */}
                           <motion.div
                             initial={{ scale: 1, rotate: "0deg" }}
@@ -183,7 +183,7 @@ const About = () => {
                             initial={{ scale: 1, rotate: "0deg" }}
                             whileHover={{ scale: 1.1, rotate: "-5deg" }}
                             transition={{ duration: 1, ease: "backInOut" }}
-                            className="mt-6"
+                            className="ss:mt-6"
                           >
                             <span className="text-base font-medium text-darkAccent">
                               CSS
@@ -199,7 +199,7 @@ const About = () => {
                             initial={{ scale: 1, rotate: "0deg" }}
                             whileHover={{ scale: 1.1, rotate: "5deg" }}
                             transition={{ duration: 1, ease: "backInOut" }}
-                            className="mt-6"
+                            className="ss:mt-6"
                           >
                             <span className="text-base font-medium text-darkAccent">
                               Figma
@@ -215,7 +215,7 @@ const About = () => {
                             initial={{ scale: 1, rotate: "0deg" }}
                             whileHover={{ scale: 1.1, rotate: "-5deg" }}
                             transition={{ duration: 1, ease: "backInOut" }}
-                            className="mt-6"
+                            className="ss:mt-6"
                           >
                             <span className="text-base font-medium text-darkAccent">
                               Adobe
@@ -234,7 +234,7 @@ const About = () => {
                 {/* Testimonial */}
                 <motion.div
                   initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
+                  animate={{ opacity: 1 }}
                   transition={{ duration: 1 }}
                   className="testimonials w-full h-auto clear-both float-left mb-[90px]"
                 >
@@ -244,11 +244,11 @@ const About = () => {
                     </span>
                     <div className="inline-block h-0.5 w-[60%] bg-darkAccent "></div>
                   </div>
-                  <div className="mt-16 grid grid-cols-2 gap-4">
+                  <div className="mt-16 grid ss:grid-cols-2 xx:grid-cols-1 gap-4">
                     {/* testimoial 1 */}
                     <div className="w-full mt-8  flex flex-col items-center justify-center gap-8">
                       <div className="flex items-center gap-4">
-                        <div className="rounded-full w-12 h-12 bg-black overflow-hidden">
+                        <div className="rounded-full w-12 h-12 overflow-hidden">
                           <img src="https://i.postimg.cc/tR1dcyQb/user.png" />
                         </div>
                         <div className="flex flex-col tracking-wider">
@@ -260,7 +260,7 @@ const About = () => {
                           </label>
                         </div>
                       </div>
-                      <p className="text-lg text-secondary leading-relaxed text-center w-4/5">
+                      <p className="ss:text-lg xx:text-base text-secondary leading-relaxed text-center w-4/5">
                         "Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s"
@@ -269,7 +269,7 @@ const About = () => {
                     {/* testimoial 2 */}
                     <div className="w-full mt-8  flex flex-col items-center justify-center gap-8">
                       <div className="flex items-center gap-4">
-                        <div className="rounded-full w-12 h-12 bg-black overflow-hidden">
+                        <div className="rounded-full w-12 h-12 overflow-hidden">
                           <img src="https://i.postimg.cc/tR1dcyQb/user.png" />
                         </div>
                         <div className="flex flex-col tracking-wider">
@@ -281,7 +281,7 @@ const About = () => {
                           </label>
                         </div>
                       </div>
-                      <p className="text-lg text-secondary leading-relaxed text-center w-4/5">
+                      <p className="ss:text-lg xx:text-base text-secondary leading-relaxed text-center w-4/5">
                         "Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s"
@@ -290,7 +290,7 @@ const About = () => {
                     {/* testimoial 3 */}
                     <div className="w-full mt-8  flex flex-col items-center justify-center gap-8">
                       <div className="flex items-center gap-4">
-                        <div className="rounded-full w-12 h-12 bg-black overflow-hidden">
+                        <div className="rounded-full w-12 h-12 overflow-hidden">
                           <img src="https://i.postimg.cc/tR1dcyQb/user.png" />
                         </div>
                         <div className="flex flex-col tracking-wider">
@@ -302,7 +302,7 @@ const About = () => {
                           </label>
                         </div>
                       </div>
-                      <p className="text-lg text-secondary leading-relaxed text-center w-4/5">
+                      <p className="ss:text-lg xx:text-base text-secondary leading-relaxed text-center w-4/5">
                         "Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s"
@@ -311,7 +311,7 @@ const About = () => {
                     {/* testimoial 4 */}
                     <div className="w-full mt-8  flex flex-col items-center justify-center gap-8">
                       <div className="flex items-center gap-4">
-                        <div className="rounded-full w-12 h-12 bg-black overflow-hidden">
+                        <div className="rounded-full w-12 h-12 overflow-hidden">
                           <img src="https://i.postimg.cc/tR1dcyQb/user.png" />
                         </div>
                         <div className="flex flex-col tracking-wider">
@@ -323,7 +323,7 @@ const About = () => {
                           </label>
                         </div>
                       </div>
-                      <p className="text-lg text-secondary leading-relaxed text-center w-4/5">
+                      <p className="ss:text-lg xx:text-base text-secondary leading-relaxed text-center w-4/5">
                         "Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s"
