@@ -9,11 +9,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* Add your font family for the text to you body for normal text */
-body {
-  font-family: "Source Sans 3", sans-serif;
   font-style: normal;
   color-scheme: light dark;
   font-family: sans-serif;
@@ -24,6 +19,12 @@ body {
   font-smooth: always;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+}
+
+/* Add your font family for the text to you body for normal text */
+body {
+  font-family: "Source Sans 3", sans-serif;
+  color: #201c21;
   background-color: #fcf7f8;
 }
 /* Add your font family for the text to you body for header text */
