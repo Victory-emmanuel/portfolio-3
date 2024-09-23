@@ -1,5 +1,7 @@
 import ProfileImage from "../components/ProfileImage";
 import { backInOut, motion } from "framer-motion";
+import Whatsapp from "../components/Whatsapp";
+
 /* eslint-disable react/no-unescaped-entities */
 const HomePage = () => {
   return (
@@ -88,6 +90,7 @@ const HomePage = () => {
                 >
                   Let's talk
                 </motion.button>
+                <Whatsapp />
               </motion.div>
               {/* tablet mode image */}
               <motion.div
